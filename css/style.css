@@ -127,8 +127,9 @@ img {
 /* Hochformat */
 
 .portrait {
+    width: auto;
     max-height: 90vh;
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto 3rem auto;
 }
 
