@@ -145,3 +145,12 @@ img {
 .hero a:hover img {
     opacity: 0.95;
 }
+
+@media (max-width: 768px) {
+
+    .portrait {
+        max-height: 80vh;
+        max-width: 85%;
+    }
+
+}
