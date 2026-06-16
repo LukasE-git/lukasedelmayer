@@ -94,43 +94,29 @@ img {
 }
 
 /* ---------- Projektseite ---------- */
+.project-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
 
 .project-header {
-    width: min(1000px, 85%);
-    margin: 3rem auto;
+    margin-bottom: 4rem;
 }
 
-.project-header h1 {
-    font-size: 1rem;
-    font-weight: 400;
+.gallery img {
+    display: block;
+    margin: 0 auto 3rem auto;
 }
-
-.project-header p {
-    margin-top: 0.3rem;
-    color: #666;
-}
-
-/* ---------- Galerie ---------- */
-
-.gallery {
-    width: min(1000px, 85%);
-    margin: 0 auto 5rem auto;
-}
-
-/* Querformat */
 
 .landscape {
-    max-width: 90%;
-    margin-bottom: 3rem;
+    width: 100%;
 }
-
-/* Hochformat */
 
 .portrait {
     width: auto;
-    max-height: 90vh;
     max-width: 80%;
-    margin: 0 auto 3rem auto;
+    max-height: 85vh;
 }
 
 /* ---------- Links auf Bildern ---------- */
